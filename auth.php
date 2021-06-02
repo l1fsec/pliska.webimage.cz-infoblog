@@ -3,8 +3,8 @@ session_start();
 
 //Připojení databáze
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
+$DATABASE_USER = 'bot';
+$DATABASE_PASS = '30032';
 $DATABASE_NAME = 'phplogin';
 // Vyzkoušej připojení
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
